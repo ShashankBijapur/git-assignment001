@@ -6,14 +6,9 @@ function checkprime(num){
       }
     }
     if(count==2){
-      return true;
+      console.log(true);
+    }else {
+      console.log(false);
     }
-      return false;
     }
-  
-  let a=checkprime([1,2,3,4,5,6,7,8,9]);
-if(a==true){
-  console.log("prime");
-}else {
-  console.log("not prime")
-}
+  checkprime(13);
